@@ -1,0 +1,19 @@
+body {
+	font-family: 'Open Sans';
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+  	margin-top: 15px;
+  	width: 100%;
+	background-color: #f5f5f5;
+	padding: 15px;
+	border-top: 1px solid #e3e3e3;
+}
+
+.page-header {
+	margin-top: 0;
+}
