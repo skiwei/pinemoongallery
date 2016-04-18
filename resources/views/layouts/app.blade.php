@@ -26,7 +26,7 @@
             <div class="navbar-header">
 
                 <!-- Collapsed Hamburger -->
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -39,7 +39,7 @@
                 </a>
             </div>
 
-            <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <div id="app-navbar" class="navbar-collapse collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/') }}">Home</a></li>
@@ -55,7 +55,7 @@
     </nav>
 	
 	<div class='container'>
-		<div class='affix' style='right:5px;width:120px;'>
+		<div class='hidden-s hidden-xs affix' style='right:5px;width:120px;'>
 			<p><img src='/img/logo.jpg'></p>
 			<ul class='list-group'>
 				<li class='list-group-item' style='background:#f5f5f5'>
@@ -106,6 +106,7 @@
 	</footer>
 	
     <!-- JavaScripts -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
